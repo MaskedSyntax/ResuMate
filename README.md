@@ -33,15 +33,15 @@ ResumeMate is a web-based tool designed to analyze, compare, and rank resumes ba
 
 ---
 
-## Screenshots of the UI
+## Design Mockups of the UI
 
-### 1. Rank Resumes
-![Score Resume](./designs/score-resumes.png)
+### 1. Score Resume
+![Score Resume](./designs/score-resume.png)
 
 ### 2. Compare Resumes
 ![Compare Resumes](./designs/compare-resumes.png)
 
-### 3. Score Resume
+### 3. Rank Resumes
 ![Rank Resumes](./designs/rank-resumes.png)
 
 ---
