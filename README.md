@@ -26,32 +26,16 @@ ResuMate is a web-based tool designed to analyze, compare, and rank resumes base
 
 ## Technologies and Tools 
 
-### Frontend
-- **React** with **TypeScript**
-- **CSS Framework**: TailwindCSS
-
-### Backend
-- **Spring Boot**
-- **Java**
-- **REST APIs**
-
-### DevOps
-- **GitHub Actions**: Used for automating backend builds and tests during pull requests or commits to the master branch.
+- **Frontend**: React (TypeScript) with Shadcn/UI for the design system.  
+- **Backend**: Spring Boot (Java) with REST APIs.  
+- **DevOps**: GitHub Actions for automating backend builds and tests.  
 
 ---
 
 ## Development Workflow 
 
-### Frontend
-1. The React frontend will be deployed to **Vercel**.
-2. It will communicate with the backend using REST APIs.
-
-### Backend
-1. The Spring Boot backend will be deployed to **Railway**.
-2. **GitHub Actions** will handle:
-   - **Building**: Ensuring the backend compiles successfully.
-   - **Testing**: Running unit and integration tests automatically.
-   - **Quality Assurance**: Ensuring that the master branch always contains stable code.
+- **Frontend**: Deployed on Vercel, communicates with the backend via REST APIs.  
+- **Backend**: Deployed on Railway, with GitHub Actions managing builds, tests, and ensuring stable code on the master branch.  
 
 ---
 
