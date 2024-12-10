@@ -3,11 +3,11 @@
 **Analyze, Compare, and Rank Resumes with Ease**
 
 ![Frontend](https://img.shields.io/badge/Frontend-React%20%7C%20TypeScript-blue) 
-![Backend](https://img.shields.io/badge/Backend-Spring%20Boot-green) 
-![NLP](https://img.shields.io/badge/NLP-Java%20Libraries-yellow) 
+![Backend](https://img.shields.io/badge/Backend-Flask-green) 
+![NLP](https://img.shields.io/badge/NLP-Python%20Libraries-yellow) 
 ![Platform](https://img.shields.io/badge/Platform-Web%20Application-orange)
 
-ResuMate is a web-based tool designed to analyze, compare, and rank resumes based on job descriptions. It leverages **Natural Language Processing (NLP)** using **Java libraries** to extract meaningful insights, ensuring accurate scoring and comparison of resumes. This tool simplifies the hiring process by providing actionable insights to both job seekers and recruiters.
+ResuMate is a web-based tool designed to analyze, compare, and rank resumes based on job descriptions. It leverages **Natural Language Processing (NLP)** using **Python libraries** to extract meaningful insights, ensuring accurate scoring and comparison of resumes. This tool simplifies the hiring process by providing actionable insights to both job seekers and recruiters.
 
 ---
 
@@ -27,7 +27,7 @@ ResuMate is a web-based tool designed to analyze, compare, and rank resumes base
 ## Technologies and Tools 
 
 - **Frontend**: React (TypeScript) with Shadcn/UI for the design system.  
-- **Backend**: Spring Boot (Java) with REST APIs.  
+- **Backend**: Flask (Python) with REST APIs.  
 - **DevOps**: GitHub Actions for automating backend builds and tests.  
 
 ---
@@ -35,7 +35,7 @@ ResuMate is a web-based tool designed to analyze, compare, and rank resumes base
 ## Development Workflow 
 
 - **Frontend**: Deployed on Vercel, communicates with the backend via REST APIs.  
-- **Backend**: Deployed on Railway, with GitHub Actions managing builds, tests, and ensuring stable code on the master branch.  
+- **Backend**: Deployed on Railway, with GitHub Actions managing builds, tests, and ensuring stable code on the main branch.  
 
 ---
 
@@ -51,7 +51,7 @@ NLP plays a crucial role in powering the resume analysis and ranking capabilitie
 
 1. **Resume Scoring**:
    - Extracts key information from resumes and job descriptions.
-   - Matches skills, qualifications, and experiences using Java-based NLP techniques.
+   - Matches skills, qualifications, and experiences using Python-based NLP techniques.
 
 2. **Resume Comparison**:
    - Uses NLP libraries to compare two resumes in terms of relevance to a given job description.
@@ -85,4 +85,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Feel free to contribute or suggest improvements by opening an issue or submitting a pull request!
-
